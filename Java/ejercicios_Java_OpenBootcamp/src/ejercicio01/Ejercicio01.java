@@ -48,8 +48,6 @@ public class Ejercicio01 {
 		System.out.println(numero2);
 		
 		
-		
-
 	}
 
 }
