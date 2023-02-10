@@ -3,7 +3,9 @@ package tiposDeDatos;
 public class SobrecargaFunciones {
 
 	// Sobrecargar es cuando la funcion tiene el mismo nombre pero el tipo de dato que le entra
-	// (parametros) es distinto.
+	// (parametros) es DISTINTO.
+	
+	// Misma funcion que ofrece distintas opciones
 	
 	
 	public static int suma(int n1, int n2) {
@@ -15,7 +17,6 @@ public class SobrecargaFunciones {
 	}
 	
 	
-
 	
 	public static void main(String[] args) {
 		int suma1 = suma(2,2);
