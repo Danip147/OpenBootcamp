@@ -1,4 +1,4 @@
-package tiposDeDatos;
+package teoriaJava;
 
 public class PruebaFunciones {
 
