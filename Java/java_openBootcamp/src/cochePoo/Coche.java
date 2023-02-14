@@ -1,14 +1,14 @@
-package teoriaJava;
+package cochePoo;
 
-public class Coche {
+public abstract class Coche {
 	
 	// Atributos 
-	String marca;
-	String modelo;
-	String color;
-	String peso;
-	int numeroPuertas;
-	Integer velocidad = 0;
+	private String marca;
+	private String modelo;
+	private String color;
+	private String peso;
+	private int numeroPuertas;
+	private Integer velocidad = 0;
 
 	
 	// Constructor vacio
@@ -93,7 +93,7 @@ public class Coche {
 	@Override
 	public String toString() {
 		return "Coche [marca=" + marca + ", modelo=" + modelo + ", color=" + color + ", peso=" + peso
-				+ ", numeroPuertas=" + numeroPuertas + "]";
+				+ ", numeroPuertas=" + numeroPuertas + " velocidad: " + velocidad;
 	}
 	
 	
