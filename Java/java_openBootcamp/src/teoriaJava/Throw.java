@@ -3,8 +3,21 @@ package teoriaJava;
 public class Throw {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		try {
+			leerNombre();
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
 
+	}
+
+	
+	
+	
+	private static void leerNombre() {
+			
 	}
 
 }
