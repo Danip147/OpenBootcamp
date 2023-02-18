@@ -21,13 +21,20 @@ public class Arrays {
 		
 		System.out.println(notas[2]);	  // DEVUELVE EL 5
 		
+		
+		// RECORRER ARRAY bucle For
+		
 		for(int i = 0; i < notas.length; i++) {
 			System.out.println(notas[i]);
 		}
 		
+		// RECORRER ARRAY forEach
+		
 		for(int nota : notas) {
 			System.out.println(nota);
 		}
+		
+		
 
 	}
 
